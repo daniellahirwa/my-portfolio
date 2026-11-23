@@ -7,10 +7,39 @@
     </head>
 
     <body>
-        <h1>Welcome to portfolio</h1>
+        <header class="navbar">
+            <a href="#home" class="logo">Portfolio<span>.</span></a>
 
-        <p>
-            Computer Science Student
-        </p>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="language-switch">
+                <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
+                <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
+            </div>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <p class="intro">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Building ideas into
+                    <span>digital solutions.</span>
+                </h1>
+
+                <p class="description">
+                    Computer Science student passionate about software development, networking, and technology. I am eager to contribute my skills and knowledge to create innovative solutions that make a positive impact in the digital world.
+                </p>
+                <a href="#projects" class="project-button"> Explore My Projects</a>
+                
+            </section>
+        </main>
+
     </body>
 </html>
